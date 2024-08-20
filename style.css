@@ -1,0 +1,113 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+  display: flex;
+  align-items: center;
+  margin: 10px 15px;
+  justify-content: end;
+}
+nav a{
+  text-decoration: none;
+  color: gray;
+  font-weight: 600;
+  margin: 10px 14px;
+}
+nav a:hover{
+  text-decoration: underline;
+}
+.g-menu{
+  width: 40px ;
+}
+.g-menu:hover{
+  opacity: 0.7;
+}
+.mr{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+/* header section code start */
+header{
+  width: 60%;
+  margin:90px  auto 20px auto;
+ 
+}
+header .google-logo{
+  display: block;
+  margin: 0 auto;
+ 
+}
+form{
+ 
+  width: 600px;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 20px;
+}
+form input{
+  display: block;
+  width: 100%;
+  outline: none;
+  padding: 13px;
+  border: 1px solid #eee;
+  border-radius: 25px;
+  box-shadow: 5px 3px 10px rgba(0, 0, 0, 0.387);
+  padding-left: 50px;
+}
+.search-icon{
+  position: absolute;
+  top: 13px;
+  left: 17px;
+  opacity: 0.6;
+}
+.voice-mic{
+  position: absolute;
+  top: 11px;
+  left: 510px;
+}
+.camera{
+  width: 22px;
+  position: absolute;
+  top: 11px;
+  left: 545px;
+}
+.parent{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  justify-content: center;
+  text-align: center;
+  width: 600px;
+  margin: 30px auto 0 auto;
+}
+.clild{
+  display: block;
+  margin: 10px;
+}
+.clild i{
+  font-size: 25px;
+  padding: 10px;
+  background-color: #dbdbdb56;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+.clild i:hover{
+  opacity: 0.7;
+  color: rgba(0, 0, 0, 0.767);
+}
+.fb i{
+  color: #316FF6;
+}
+.tw i{
+color: 	#1DA1F2;
+}
+.you i{
+color: #f21616;
+}
+.fn{
+  color: #1DA1F2;
+}
